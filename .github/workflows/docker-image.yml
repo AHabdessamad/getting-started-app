@@ -33,7 +33,7 @@ jobs:
         context: . # where Dockerfile exist to build
         push: true
         tags: |
-          ghcr.io/${{ github.repository_owner }}/abohmeed/getting-started:latest
-          ghcr.io/${{ github.repository_owner }}/abohmeed/getting-started:${{ github.sha }}
+          ghcr.io/${{ github.repository_owner }}/getting-started:latest
+          ghcr.io/${{ github.repository_owner }}/getting-started:${{ github.sha }}
 # best pracice use hash of image to define version 
 # u can other testing | Quality assurance
